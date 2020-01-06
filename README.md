@@ -1,1 +1,0 @@
-# healthcare-primary-solution-template
