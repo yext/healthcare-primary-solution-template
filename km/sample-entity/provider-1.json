@@ -1,0 +1,23 @@
+{
+  "$id": "provider-1",
+  "$type": "https://schema.yext.cloud/config/km/sample-entity",
+  "content": {
+    "yext.address": {
+      "line1": "123 Main Street",
+      "city": "Houston",
+      "region": "TX",
+      "postalCode": "77570",
+      "countryCode": "US"
+    },
+    "yext.addressHidden": false,
+    "yext.name": "Jane L Doe",
+    "yext.featuredMessage": {
+      "description": "Provider featured message"
+    },
+    "yext.firstName": "Jane",
+    "yext.lastName": "Doe",
+    "yext.middleName": "L",
+    "yext.timezone": "America/Chicago"
+  },
+  "entityType": "healthcareProfessional"
+}

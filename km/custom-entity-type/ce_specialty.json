@@ -1,0 +1,51 @@
+{
+  "$id": "ce_specialty",
+  "$type": "https://schema.yext.cloud/config/km/custom-entity-type",
+  "apiName": "ce_specialty",
+  "description": "",
+  "displayName": "Specialty",
+  "enabled": true,
+  "entry": [
+    {
+      "id": "location.business_description",
+      "required": false
+    },
+    {
+      "id": "location.business_name",
+      "required": true
+    },
+    {
+      "id": "activeOnAnswers",
+      "required": false
+    },
+    {
+      "id": "activeOnPages",
+      "required": false
+    },
+    {
+      "id": "ctas",
+      "required": false
+    },
+    {
+      "id": "relatedLocations",
+      "required": false
+    },
+    {
+      "id": "location.folder_location",
+      "required": false
+    },
+    {
+      "id": "location.labels",
+      "required": false
+    },
+    {
+      "id": "location.store_id",
+      "required": true
+    },
+    {
+      "id": "location.website",
+      "required": false
+    }
+  ],
+  "pluralDisplayName": "Specialties"
+}

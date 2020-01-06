@@ -1,0 +1,8 @@
+{
+  "$id": "job-1",
+  "$type": "https://schema.yext.cloud/config/km/sample-entity",
+  "content": {
+    "yext.name": "Job"
+  },
+  "entityType": "job"
+}

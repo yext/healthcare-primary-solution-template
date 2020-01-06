@@ -1,0 +1,8 @@
+{
+  "$id": "healthcarePrimaryCareAnswers",
+  "$type": "https://schema.yext.cloud/config/pages/site-config",
+  "HostName": "${{healthcarePrimaryCareAnswers_hostName}}",
+  "SiteName": "Healthcare Primary Care Answers",
+  "TargetRepoName": "${{healthcarePrimaryCareAnswers_targetRepo}}",
+  "TemplateRepo": "answers-primarycare.yextdemos.com"
+}

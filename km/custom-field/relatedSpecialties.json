@@ -1,0 +1,17 @@
+{
+  "$id": "relatedSpecialties",
+  "$type": "https://schema.yext.cloud/config/km/custom-field",
+  "apiName": "c_relatedSpecialties",
+  "displayName": "Related Specialties",
+  "group": "NONE",
+  "localization": "PRIMARY_ONLY",
+  "type": {
+    "listType": {
+      "typeId": "type.entity_reference",
+      "type": {
+        "entityReferenceType": {}
+      }
+    }
+  },
+  "typeId": "type.list"
+}

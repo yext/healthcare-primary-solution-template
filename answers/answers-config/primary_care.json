@@ -1,0 +1,108 @@
+{
+  "$id": "primary_care",
+  "$type": "https://schema.yext.cloud/config/answers/answers-config",
+  "countryRestrictions": [],
+  "localizations": {},
+  "name": "Healthcare (Primary Care) Answers",
+  "supportedLocales": [],
+  "verticals": {
+    "specialties": {
+      "entityTypes": [
+        "ce_specialty"
+      ],
+      "keywords": [],
+      "searchableFields": {
+        "builtin.entityType": {
+          "nlpFilter": true
+        }
+      },
+      "sortBys": [],
+      "source": "KNOWLEDGE_MANAGER",
+      "name": "Specialties"
+    },
+    "faqs": {
+      "entityTypes": [
+        "faq"
+      ],
+      "keywords": [],
+      "searchableFields": {
+        "builtin.entityType": {
+          "nlpFilter": true
+        }
+      },
+      "sortBys": [],
+      "source": "KNOWLEDGE_MANAGER",
+      "name": "FAQs"
+    },
+    "healthcare_professionals": {
+      "entityTypes": [
+        "healthcareProfessional"
+      ],
+      "keywords": [],
+      "searchableFields": {
+        "builtin.entityType": {
+          "nlpFilter": true
+        }
+      },
+      "sortBys": [],
+      "source": "KNOWLEDGE_MANAGER",
+      "name": "Healthcare Professional"
+    },
+    "healthcare_facilities": {
+      "entityTypes": [
+        "healthcareFacility"
+      ],
+      "keywords": [],
+      "searchableFields": {
+        "builtin.entityType": {
+          "nlpFilter": true
+        }
+      },
+      "sortBys": [],
+      "source": "KNOWLEDGE_MANAGER",
+      "name": "Healthcare Facility"
+    },
+    "procedures": {
+      "entityTypes": [
+        "ce_procedure"
+      ],
+      "keywords": [],
+      "searchableFields": {
+        "builtin.entityType": {
+          "nlpFilter": true
+        }
+      },
+      "sortBys": [],
+      "source": "KNOWLEDGE_MANAGER",
+      "name": "Procedure"
+    },
+    "jobs": {
+      "entityTypes": [
+        "job"
+      ],
+      "keywords": [],
+      "searchableFields": {
+        "builtin.entityType": {
+          "nlpFilter": true
+        }
+      },
+      "sortBys": [],
+      "source": "KNOWLEDGE_MANAGER",
+      "name": "Jobs"
+    },
+    "events": {
+      "entityTypes": [
+        "event"
+      ],
+      "keywords": [],
+      "searchableFields": {
+        "builtin.entityType": {
+          "nlpFilter": true
+        }
+      },
+      "sortBys": [],
+      "source": "KNOWLEDGE_MANAGER",
+      "name": "Events"
+    }
+  }
+}

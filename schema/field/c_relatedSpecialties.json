@@ -1,0 +1,1 @@
+{"$id":"c_relatedSpecialties","$schema": "https://json-schema.org/draft/2019-09/schema","$type":"https://schema.yext.cloud/config/schema/field","items": {"format": "ref", "refKey": "https://schema.yext.cloud/fields/yext/entityId", "type": "integer"},"title": "Related Specialties","type": "array","uniqueItems": true,"yext.field_id": "location.custom.3065557.related_specialties.0"}
