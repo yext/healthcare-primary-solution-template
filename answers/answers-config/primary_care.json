@@ -1,108 +1,101 @@
 {
+  "$schema": "https://schema.yext.com/config/answers/answers-config/v1",
   "$id": "primary_care",
-  "$type": "https://schema.yext.cloud/config/answers/answers-config",
-  "countryRestrictions": [],
-  "localizations": {},
   "name": "Healthcare (Primary Care) Answers",
   "supportedLocales": [],
+  "countryRestrictions": [],
   "verticals": {
-    "specialties": {
+    "events": {
       "entityTypes": [
-        "ce_specialty"
+        "event"
       ],
-      "keywords": [],
+      "name": "Events",
       "searchableFields": {
         "builtin.entityType": {
           "nlpFilter": true
         }
       },
       "sortBys": [],
-      "source": "KNOWLEDGE_MANAGER",
-      "name": "Specialties"
+      "source": "KNOWLEDGE_MANAGER"
     },
     "faqs": {
       "entityTypes": [
         "faq"
       ],
-      "keywords": [],
+      "name": "FAQs",
       "searchableFields": {
         "builtin.entityType": {
           "nlpFilter": true
         }
       },
       "sortBys": [],
-      "source": "KNOWLEDGE_MANAGER",
-      "name": "FAQs"
-    },
-    "healthcare_professionals": {
-      "entityTypes": [
-        "healthcareProfessional"
-      ],
-      "keywords": [],
-      "searchableFields": {
-        "builtin.entityType": {
-          "nlpFilter": true
-        }
-      },
-      "sortBys": [],
-      "source": "KNOWLEDGE_MANAGER",
-      "name": "Healthcare Professional"
+      "source": "KNOWLEDGE_MANAGER"
     },
     "healthcare_facilities": {
       "entityTypes": [
         "healthcareFacility"
       ],
-      "keywords": [],
+      "name": "Healthcare Facility",
       "searchableFields": {
         "builtin.entityType": {
           "nlpFilter": true
         }
       },
       "sortBys": [],
-      "source": "KNOWLEDGE_MANAGER",
-      "name": "Healthcare Facility"
+      "source": "KNOWLEDGE_MANAGER"
     },
-    "procedures": {
+    "healthcare_professionals": {
       "entityTypes": [
-        "ce_procedure"
+        "healthcareProfessional"
       ],
-      "keywords": [],
+      "name": "Healthcare Professional",
       "searchableFields": {
         "builtin.entityType": {
           "nlpFilter": true
         }
       },
       "sortBys": [],
-      "source": "KNOWLEDGE_MANAGER",
-      "name": "Procedure"
+      "source": "KNOWLEDGE_MANAGER"
     },
     "jobs": {
       "entityTypes": [
         "job"
       ],
-      "keywords": [],
+      "name": "Jobs",
       "searchableFields": {
         "builtin.entityType": {
           "nlpFilter": true
         }
       },
       "sortBys": [],
-      "source": "KNOWLEDGE_MANAGER",
-      "name": "Jobs"
+      "source": "KNOWLEDGE_MANAGER"
     },
-    "events": {
+    "procedures": {
       "entityTypes": [
-        "event"
+        "ce_procedure"
       ],
-      "keywords": [],
+      "name": "Procedure",
       "searchableFields": {
         "builtin.entityType": {
           "nlpFilter": true
         }
       },
       "sortBys": [],
-      "source": "KNOWLEDGE_MANAGER",
-      "name": "Events"
+      "source": "KNOWLEDGE_MANAGER"
+    },
+    "specialties": {
+      "entityTypes": [
+        "ce_specialty"
+      ],
+      "name": "Specialties",
+      "searchableFields": {
+        "builtin.entityType": {
+          "nlpFilter": true
+        }
+      },
+      "sortBys": [],
+      "source": "KNOWLEDGE_MANAGER"
     }
-  }
+  },
+  "localizations": {}
 }

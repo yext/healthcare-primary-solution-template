@@ -1,0 +1,15 @@
+{
+  "$id": "c_ctas",
+  "$schema": "https://schema.yext.com/config/km/field/v1",
+  "description": "",
+  "displayName": "CTAs",
+  "group": "NONE",
+  "localization": "PRIMARY_ONLY",
+  "type": {
+    "listType": {
+      "typeId": "c_cta",
+      "maxLength": 2
+    }
+  },
+  "typeId": "yext/list"
+}

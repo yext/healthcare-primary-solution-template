@@ -1,0 +1,12 @@
+{
+  "$id": "c_activeOnPages",
+  "$schema": "https://schema.yext.com/config/km/field/v1",
+  "description": "",
+  "displayName": "Active on Pages",
+  "group": "NONE",
+  "localization": "PRIMARY_ONLY",
+  "type": {
+    "booleanType": {}
+  },
+  "typeId": "yext/boolean"
+}

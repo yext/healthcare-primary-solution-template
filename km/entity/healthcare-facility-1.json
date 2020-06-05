@@ -1,0 +1,18 @@
+{
+  "$id": "healthcare-facility-1",
+  "$schema": "https://schema.yext.com/config/km/entity/v1",
+  "content": {
+    "yext/address": {
+      "city": "Houston",
+      "countryCode": "US",
+      "line1": "123 Main Street",
+      "postalCode": "77570",
+      "region": "TX"
+    },
+    "yext/addressHidden": false,
+    "yext/name": "Healthcare Facility",
+    "yext/timezone": "America/Chicago"
+  },
+  "entityType": "yext/healthcareFacility",
+  "labels": []
+}

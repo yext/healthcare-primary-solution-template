@@ -1,1 +1,0 @@
-{"$id":"c_relatedLocations","$schema": "https://json-schema.org/draft/2019-09/schema","$type":"https://schema.yext.cloud/config/schema/field","items": {"format": "ref", "refKey": "https://schema.yext.cloud/fields/yext/entityId", "type": "integer"},"title": "Related Locations","type": "array","uniqueItems": true,"yext.field_id": "location.custom.3065557.related_locations.0"}

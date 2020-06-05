@@ -1,0 +1,146 @@
+{
+  "$id": "c_cta",
+  "$schema": "https://schema.yext.com/config/km/field-type/v1",
+  "description": "",
+  "displayName": "CTA",
+  "type": {
+    "structType": {
+      "property": [
+        {
+          "name": "text",
+          "displayName": "Text",
+          "isRequired": false,
+          "typeId": "yext/string",
+          "type": {
+            "stringType": {
+              "stereotype": "SIMPLE"
+            }
+          }
+        },
+        {
+          "name": "url",
+          "displayName": "URL",
+          "isRequired": false,
+          "typeId": "yext/string",
+          "type": {
+            "stringType": {
+              "stereotype": "URL"
+            }
+          }
+        },
+        {
+          "name": "icon",
+          "displayName": "Icon",
+          "isRequired": false,
+          "typeId": "yext/option",
+          "type": {
+            "optionType": {
+              "option": [
+                {
+                  "displayName": "star",
+                  "textValue": "star"
+                },
+                {
+                  "displayName": "thumb",
+                  "textValue": "thumb"
+                },
+                {
+                  "displayName": "receipt",
+                  "textValue": "receipt"
+                },
+                {
+                  "displayName": "pantheon",
+                  "textValue": "pantheon"
+                },
+                {
+                  "displayName": "mic",
+                  "textValue": "mic"
+                },
+                {
+                  "displayName": "directions",
+                  "textValue": "directions"
+                },
+                {
+                  "displayName": "calendar",
+                  "textValue": "calendar"
+                },
+                {
+                  "displayName": "callout",
+                  "textValue": "callout"
+                },
+                {
+                  "displayName": "info",
+                  "textValue": "info"
+                },
+                {
+                  "displayName": "briefcase",
+                  "textValue": "briefcase"
+                },
+                {
+                  "displayName": "kabob",
+                  "textValue": "kabob"
+                },
+                {
+                  "displayName": "person",
+                  "textValue": "person"
+                },
+                {
+                  "displayName": "magnifying_glass",
+                  "textValue": "magnifying_glass"
+                },
+                {
+                  "displayName": "office",
+                  "textValue": "office"
+                },
+                {
+                  "displayName": "link",
+                  "textValue": "link"
+                },
+                {
+                  "displayName": "window",
+                  "textValue": "window"
+                },
+                {
+                  "displayName": "phone",
+                  "textValue": "phone"
+                },
+                {
+                  "displayName": "tag",
+                  "textValue": "tag"
+                },
+                {
+                  "displayName": "document",
+                  "textValue": "document"
+                },
+                {
+                  "displayName": "chevron",
+                  "textValue": "chevron"
+                },
+                {
+                  "displayName": "support",
+                  "textValue": "support"
+                },
+                {
+                  "displayName": "yext",
+                  "textValue": "yext"
+                },
+                {
+                  "displayName": "pin",
+                  "textValue": "pin"
+                },
+                {
+                  "displayName": "gear",
+                  "textValue": "gear"
+                },
+                {
+                  "displayName": "light_bulb",
+                  "textValue": "light_bulb"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  }
+}

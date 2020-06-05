@@ -1,7 +1,7 @@
 {
-  "$type": "https://schema.yext.cloud/config/platform/account-features",
-  "disabled": [ ],
+  "$schema": "https://schema.yext.com/config/platform/account-features/v1",
   "enabled": [
-    "Page Builder"
-  ]
+    189
+  ],
+  "disabled": []
 }

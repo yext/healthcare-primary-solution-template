@@ -1,0 +1,705 @@
+{
+  "$id": "Specialty",
+  "$schema": "https://schema.yext.com/config/pages/page-builder-template/v1",
+  "EntityTypeName": "ce_specialty",
+  "PageSetConfig": {
+    "ContentMapping": {
+      "ModuleMappings": [
+        {
+          "ContentMapEntries": [
+            {
+              "BooleanValue": false,
+              "ExternalEntityId": "",
+              "FloatValue": 0,
+              "ImageUrl": "",
+              "InputType": "",
+              "IntValue": 0,
+              "SelectedField": [
+                "logo"
+              ],
+              "Sink": "logo",
+              "StringValue": ""
+            },
+            {
+              "BooleanValue": false,
+              "ExternalEntityId": "",
+              "FloatValue": 0,
+              "ImageUrl": "",
+              "InputType": "",
+              "IntValue": 0,
+              "Sink": "logoUrl",
+              "StringValue": ""
+            },
+            {
+              "BooleanValue": false,
+              "ExternalEntityId": "",
+              "FloatValue": 0,
+              "ImageUrl": "",
+              "InputType": "",
+              "IntValue": 0,
+              "Sink": "link1Text",
+              "StringValue": "Header Link"
+            },
+            {
+              "BooleanValue": false,
+              "ExternalEntityId": "",
+              "FloatValue": 0,
+              "ImageUrl": "",
+              "InputType": "",
+              "IntValue": 0,
+              "Sink": "link1Url",
+              "StringValue": "#"
+            },
+            {
+              "BooleanValue": false,
+              "ExternalEntityId": "",
+              "FloatValue": 0,
+              "ImageUrl": "",
+              "InputType": "",
+              "IntValue": 0,
+              "Sink": "link2Text",
+              "StringValue": "Header Link"
+            },
+            {
+              "BooleanValue": false,
+              "ExternalEntityId": "",
+              "FloatValue": 0,
+              "ImageUrl": "",
+              "InputType": "",
+              "IntValue": 0,
+              "Sink": "link2Url",
+              "StringValue": "#"
+            },
+            {
+              "BooleanValue": false,
+              "ExternalEntityId": "",
+              "FloatValue": 0,
+              "ImageUrl": "",
+              "InputType": "",
+              "IntValue": 0,
+              "Sink": "link3Text",
+              "StringValue": "Header Link"
+            },
+            {
+              "BooleanValue": false,
+              "ExternalEntityId": "",
+              "FloatValue": 0,
+              "ImageUrl": "",
+              "InputType": "",
+              "IntValue": 0,
+              "Sink": "link3Url",
+              "StringValue": "#"
+            },
+            {
+              "BooleanValue": false,
+              "ExternalEntityId": "",
+              "FloatValue": 0,
+              "ImageUrl": "",
+              "InputType": "",
+              "IntValue": 0,
+              "Sink": "link4Text",
+              "StringValue": "Header Link"
+            },
+            {
+              "BooleanValue": false,
+              "ExternalEntityId": "",
+              "FloatValue": 0,
+              "ImageUrl": "",
+              "InputType": "",
+              "IntValue": 0,
+              "Sink": "link4Url",
+              "StringValue": "#"
+            },
+            {
+              "BooleanValue": false,
+              "ExternalEntityId": "",
+              "FloatValue": 0,
+              "ImageUrl": "",
+              "InputType": "",
+              "IntValue": 0,
+              "Sink": "link5Text",
+              "StringValue": "Header Link"
+            },
+            {
+              "BooleanValue": false,
+              "ExternalEntityId": "",
+              "FloatValue": 0,
+              "ImageUrl": "",
+              "InputType": "",
+              "IntValue": 0,
+              "Sink": "link5Url",
+              "StringValue": "#"
+            },
+            {
+              "BooleanValue": false,
+              "ExternalEntityId": "",
+              "FloatValue": 0,
+              "ImageUrl": "",
+              "InputType": "",
+              "IntValue": 0,
+              "Sink": "link6Text",
+              "StringValue": "Link to Finder"
+            },
+            {
+              "BooleanValue": false,
+              "ExternalEntityId": "",
+              "FloatValue": 0,
+              "ImageUrl": "",
+              "InputType": "",
+              "IntValue": 0,
+              "Sink": "link6Url",
+              "StringValue": "#"
+            }
+          ],
+          "DefaultScss": ".module-navbar {\n\tpadding: 0;\n}\n\n.module-navbar-bg-color {\n  background-color: #f8f9fa;\n}\n\n.module-navbar .navbar-brand img {\n\theight: 50px; //height of the logo\n}\n\n.nav-link {\n    margin: 0 15px;\n}\n",
+          "Js": "",
+          "ListParamEntries": [],
+          "ModuleId": "J9m-Pgkf_I",
+          "Scss": ".module-navbar {\n\tpadding: 0;\n}\n\n.module-navbar-bg-color {\n  background-color: #f8f9fa;\n}\n\n.module-navbar .navbar-brand img {\n\theight: 50px; //height of the logo\n}\n\n.nav-link {\n    margin: 0 15px;\n}\n"
+        },
+        {
+          "ContentMapEntries": [
+            {
+              "BooleanValue": false,
+              "ExternalEntityId": "",
+              "FloatValue": 0,
+              "ImageUrl": "",
+              "InputType": "",
+              "IntValue": 0,
+              "Sink": "announcementText",
+              "StringValue": "Announcement Bar Text"
+            },
+            {
+              "BooleanValue": false,
+              "ExternalEntityId": "",
+              "FloatValue": 0,
+              "ImageUrl": "",
+              "InputType": "",
+              "IntValue": 0,
+              "Sink": "announcementUrl",
+              "StringValue": "#"
+            }
+          ],
+          "DefaultScss": ".module-announcement-bar {\n\tpadding: 0;\n}\n\n.module-announcement-bar a {\n\tflex-grow: 1;\n\ttext-align: center;\n\tpadding: 7px 5px;\n}\n\n// Override the background color below\n.module-announcement-bar .btn {\n    // background-color: gray;\n\tborder-radius: 0px;\n\tword-wrap: break-word;\n\twhite-space: normal;\n\tborder: 0px;\n\tmargin: 0px;\n\tbox-shadow: none;\n}",
+          "Js": "",
+          "ListParamEntries": [],
+          "ModuleId": "JJQAggAo_E",
+          "Scss": ".module-announcement-bar {\n\tpadding: 0;\n}\n\n.module-announcement-bar a {\n\tflex-grow: 1;\n\ttext-align: center;\n\tpadding: 7px 5px;\n}\n\n// Override the background color below\n.module-announcement-bar .btn {\n    // background-color: gray;\n\tborder-radius: 0px;\n\tword-wrap: break-word;\n\twhite-space: normal;\n\tborder: 0px;\n\tmargin: 0px;\n\tbox-shadow: none;\n}"
+        },
+        {
+          "ContentMapEntries": [
+            {
+              "BooleanValue": false,
+              "ExternalEntityId": "",
+              "FloatValue": 0,
+              "ImageUrl": "",
+              "InputType": "",
+              "IntValue": 0,
+              "SelectedField": [
+                "name"
+              ],
+              "Sink": "headline",
+              "StringValue": ""
+            },
+            {
+              "BooleanValue": false,
+              "ExternalEntityId": "",
+              "FloatValue": 0,
+              "ImageUrl": "",
+              "InputType": "",
+              "IntValue": 0,
+              "Sink": "paragraph",
+              "StringValue": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas finibus placerat justo a viverra. Quisque ut congue tellus, vitae fermentum velit. Suspendisse sed gravida libero. Etiam pulvinar tincidunt augue vitae fermentum. Maecenas tortor nunc, ullamcorper eu tortor sed, vestibulum suscipit libero. Praesent sit amet pulvinar massa. Proin mattis tellus tristique neque ullamcorper, vel vestibulum lorem dapibus. Vivamus et magna in justo posuere imperdiet sit amet amour tellus. 500 characters"
+            },
+            {
+              "BooleanValue": false,
+              "ExternalEntityId": "",
+              "FloatValue": 0,
+              "ImageUrl": "",
+              "InputType": "",
+              "IntValue": 0,
+              "Sink": "image",
+              "StringValue": ""
+            },
+            {
+              "BooleanValue": false,
+              "ExternalEntityId": "",
+              "FloatValue": 0,
+              "ImageUrl": "",
+              "InputType": "",
+              "IntValue": 0,
+              "Sink": "buttonText",
+              "StringValue": "Primary CTA"
+            },
+            {
+              "BooleanValue": false,
+              "ExternalEntityId": "",
+              "FloatValue": 0,
+              "ImageUrl": "",
+              "InputType": "",
+              "IntValue": 0,
+              "Sink": "buttonUrl",
+              "StringValue": "#"
+            },
+            {
+              "BooleanValue": false,
+              "ExternalEntityId": "",
+              "FloatValue": 0,
+              "ImageUrl": "",
+              "InputType": "",
+              "IntValue": 0,
+              "Sink": "button2Text",
+              "StringValue": "Secondary CTA"
+            },
+            {
+              "BooleanValue": false,
+              "ExternalEntityId": "",
+              "FloatValue": 0,
+              "ImageUrl": "",
+              "InputType": "",
+              "IntValue": 0,
+              "Sink": "button2Url",
+              "StringValue": "#"
+            }
+          ],
+          "DefaultScss": "// Choose the color overlay on the image\n$overlay-color: transparentize(black, 0.4);\n$font-color: white;\n\n.image-outer-container {\n    background-color: #212529;\n    background-size: cover;\n    background-position: center center;\n    background-repeat: no-repeat;\n\n    .image-overlay {\n        padding: 4rem 0;\n        color: $font-color;\n        \u0026h1,h2,h3 {\n            color: $font-color;\n        }\n        text-align: center;\n        background-color: $overlay-color;\n\n        .image-inner-container {\n            margin: 0 auto;\n            max-width: 800px;\n            display: flex;\n            flex-direction: column;\n            align-items: center;\n\n            .headline {\n            }\n\n            .paragraph {\n                width: 100%;\n            }\n\n            .ctas {\n                a {\n                    margin-bottom: 0.5rem;\n\n                    \u0026:not(:last-child) {\n                        margin-right: 0.5rem;\n                    }\n\n                    \u0026.primary-cta {\n\n                    }\n\n                    \u0026.secondary-cta {\n\n                    }\n                }\n            }\n        }\n    }\n}\n",
+          "Js": "",
+          "ListParamEntries": [],
+          "ModuleId": "JHgkgmAo_I",
+          "Scss": "// Choose the color overlay on the image\n$overlay-color: transparentize(black, 0.4);\n$font-color: white;\n\n.image-outer-container {\n    background-color: #212529;\n    background-size: cover;\n    background-position: center center;\n    background-repeat: no-repeat;\n\n    .image-overlay {\n        padding: 4rem 0;\n        color: $font-color;\n        \u0026h1,h2,h3 {\n            color: $font-color;\n        }\n        text-align: center;\n        background-color: $overlay-color;\n\n        .image-inner-container {\n            margin: 0 auto;\n            max-width: 800px;\n            display: flex;\n            flex-direction: column;\n            align-items: center;\n\n            .headline {\n            }\n\n            .paragraph {\n                width: 100%;\n            }\n\n            .ctas {\n                a {\n                    margin-bottom: 0.5rem;\n\n                    \u0026:not(:last-child) {\n                        margin-right: 0.5rem;\n                    }\n\n                    \u0026.primary-cta {\n\n                    }\n\n                    \u0026.secondary-cta {\n\n                    }\n                }\n            }\n        }\n    }\n}\n"
+        },
+        {
+          "ContentMapEntries": [
+            {
+              "BooleanValue": false,
+              "ExternalEntityId": "",
+              "FloatValue": 0,
+              "ImageUrl": "",
+              "InputType": "",
+              "IntValue": 0,
+              "Sink": "image",
+              "StringValue": ""
+            },
+            {
+              "BooleanValue": false,
+              "ExternalEntityId": "",
+              "FloatValue": 0,
+              "ImageUrl": "",
+              "InputType": "",
+              "IntValue": 0,
+              "Sink": "headline",
+              "StringValue": "Headline"
+            },
+            {
+              "BooleanValue": false,
+              "ExternalEntityId": "",
+              "FloatValue": 0,
+              "ImageUrl": "",
+              "InputType": "",
+              "IntValue": 0,
+              "Sink": "paragraph",
+              "StringValue": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\u0027s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+            },
+            {
+              "BooleanValue": false,
+              "ExternalEntityId": "",
+              "FloatValue": 0,
+              "ImageUrl": "",
+              "InputType": "",
+              "IntValue": 0,
+              "Sink": "ctaText",
+              "StringValue": "Primary CTA"
+            },
+            {
+              "BooleanValue": false,
+              "ExternalEntityId": "",
+              "FloatValue": 0,
+              "ImageUrl": "",
+              "InputType": "",
+              "IntValue": 0,
+              "Sink": "ctaURL",
+              "StringValue": "#"
+            }
+          ],
+          "DefaultScss": "padding: 2rem 0;\n\n.image {\n    width: 100%;\n}\n\n.left-column {\n    // Not included in IE\n    @supports not (-ms-high-contrast: none) {\n        display: flex;\n        flex-direction: column;\n        justify-content: center;\n    }\n\n    img.image {\n    }\n}\n\n.right-column {\n    // Not included in IE\n    @supports not (-ms-high-contrast: none) {\n        display: flex;\n        flex-direction: column;\n        justify-content: flex-start;\n    }\n\n    .headline {\n        margin-bottom: 16px;\n    }\n\n    img.image {\n        display: none; // Hidden on Desktop\n        margin-bottom: 16px;\n    }\n\n    .paragraph {\n      margin-bottom: 1rem;\n    }\n\n    .cta-container {\n        .cta {\n        }\n    }\n}\n\n// Style for mobile\n$grid-breakpoints: (\n  xs: 0,\n  sm: 576px,\n  md: 768px,\n  lg: 992px,\n  xl: 1200px\n) !default;\n\n @media (max-width: map-get($grid-breakpoints, \"md\")) {\n    .left-column {\n        display: none;\n    }\n\n    .right-column {\n        .headline {\n            text-align: center;\n        }\n\n        img.image {\n            display: block;\n        }\n\n        .cta-container {\n            text-align: center;\n        }\n    }\n\n }\n\n",
+          "Js": "",
+          "ListParamEntries": [],
+          "ModuleId": "JumkgQ-XUE",
+          "Scss": "padding: 2rem 0;\n\n.image {\n    width: 100%;\n}\n\n.left-column {\n    // Not included in IE\n    @supports not (-ms-high-contrast: none) {\n        display: flex;\n        flex-direction: column;\n        justify-content: center;\n    }\n\n    img.image {\n    }\n}\n\n.right-column {\n    // Not included in IE\n    @supports not (-ms-high-contrast: none) {\n        display: flex;\n        flex-direction: column;\n        justify-content: flex-start;\n    }\n\n    .headline {\n        margin-bottom: 16px;\n    }\n\n    img.image {\n        display: none; // Hidden on Desktop\n        margin-bottom: 16px;\n    }\n\n    .paragraph {\n      margin-bottom: 1rem;\n    }\n\n    .cta-container {\n        .cta {\n        }\n    }\n}\n\n// Style for mobile\n$grid-breakpoints: (\n  xs: 0,\n  sm: 576px,\n  md: 768px,\n  lg: 992px,\n  xl: 1200px\n) !default;\n\n @media (max-width: map-get($grid-breakpoints, \"md\")) {\n    .left-column {\n        display: none;\n    }\n\n    .right-column {\n        .headline {\n            text-align: center;\n        }\n\n        img.image {\n            display: block;\n        }\n\n        .cta-container {\n            text-align: center;\n        }\n    }\n\n }\n\n"
+        },
+        {
+          "ContentMapEntries": [
+            {
+              "BooleanValue": false,
+              "ExternalEntityId": "",
+              "FloatValue": 0,
+              "ImageUrl": "",
+              "InputType": "",
+              "IntValue": 0,
+              "Sink": "caption",
+              "StringValue": "© 2018 Cobalt Design System. All Rights Reserved."
+            },
+            {
+              "BooleanValue": false,
+              "ExternalEntityId": "",
+              "FloatValue": 0,
+              "ImageUrl": "",
+              "InputType": "",
+              "IntValue": 0,
+              "Sink": "link1Text",
+              "StringValue": "Privacy"
+            },
+            {
+              "BooleanValue": false,
+              "ExternalEntityId": "",
+              "FloatValue": 0,
+              "ImageUrl": "",
+              "InputType": "",
+              "IntValue": 0,
+              "Sink": "link1Url",
+              "StringValue": "#"
+            },
+            {
+              "BooleanValue": false,
+              "ExternalEntityId": "",
+              "FloatValue": 0,
+              "ImageUrl": "",
+              "InputType": "",
+              "IntValue": 0,
+              "Sink": "link2Text",
+              "StringValue": "Terms of Service"
+            },
+            {
+              "BooleanValue": false,
+              "ExternalEntityId": "",
+              "FloatValue": 0,
+              "ImageUrl": "",
+              "InputType": "",
+              "IntValue": 0,
+              "Sink": "link2Url",
+              "StringValue": "#"
+            },
+            {
+              "BooleanValue": false,
+              "ExternalEntityId": "",
+              "FloatValue": 0,
+              "ImageUrl": "",
+              "InputType": "",
+              "IntValue": 0,
+              "Sink": "link3Text",
+              "StringValue": "Sitemap"
+            },
+            {
+              "BooleanValue": false,
+              "ExternalEntityId": "",
+              "FloatValue": 0,
+              "ImageUrl": "",
+              "InputType": "",
+              "IntValue": 0,
+              "Sink": "link3Url",
+              "StringValue": "#"
+            },
+            {
+              "BooleanValue": false,
+              "ExternalEntityId": "",
+              "FloatValue": 0,
+              "ImageUrl": "",
+              "InputType": "",
+              "IntValue": 0,
+              "Sink": "link4Text",
+              "StringValue": "Footer Link"
+            },
+            {
+              "BooleanValue": false,
+              "ExternalEntityId": "",
+              "FloatValue": 0,
+              "ImageUrl": "",
+              "InputType": "",
+              "IntValue": 0,
+              "Sink": "link4Url",
+              "StringValue": "#"
+            },
+            {
+              "BooleanValue": false,
+              "ExternalEntityId": "",
+              "FloatValue": 0,
+              "ImageUrl": "",
+              "InputType": "",
+              "IntValue": 0,
+              "Sink": "link5Text",
+              "StringValue": "Footer Link"
+            },
+            {
+              "BooleanValue": false,
+              "ExternalEntityId": "",
+              "FloatValue": 0,
+              "ImageUrl": "",
+              "InputType": "",
+              "IntValue": 0,
+              "Sink": "link5Url",
+              "StringValue": "#"
+            },
+            {
+              "BooleanValue": false,
+              "ExternalEntityId": "",
+              "FloatValue": 0,
+              "ImageUrl": "",
+              "InputType": "",
+              "IntValue": 0,
+              "Sink": "link6Text",
+              "StringValue": "Footer Link"
+            },
+            {
+              "BooleanValue": false,
+              "ExternalEntityId": "",
+              "FloatValue": 0,
+              "ImageUrl": "",
+              "InputType": "",
+              "IntValue": 0,
+              "Sink": "link6Url",
+              "StringValue": "#"
+            },
+            {
+              "BooleanValue": false,
+              "ExternalEntityId": "",
+              "FloatValue": 0,
+              "ImageUrl": "",
+              "InputType": "",
+              "IntValue": 0,
+              "Sink": "link7Text",
+              "StringValue": "Footer Link"
+            },
+            {
+              "BooleanValue": false,
+              "ExternalEntityId": "",
+              "FloatValue": 0,
+              "ImageUrl": "",
+              "InputType": "",
+              "IntValue": 0,
+              "Sink": "link7Url",
+              "StringValue": "#"
+            },
+            {
+              "BooleanValue": false,
+              "ExternalEntityId": "",
+              "FloatValue": 0,
+              "ImageUrl": "",
+              "InputType": "",
+              "IntValue": 0,
+              "SelectedField": [
+                "facebookPageUrl"
+              ],
+              "Sink": "facebook",
+              "StringValue": ""
+            },
+            {
+              "BooleanValue": false,
+              "ExternalEntityId": "",
+              "FloatValue": 0,
+              "ImageUrl": "",
+              "InputType": "",
+              "IntValue": 0,
+              "Sink": "youtube",
+              "StringValue": ""
+            },
+            {
+              "BooleanValue": false,
+              "ExternalEntityId": "",
+              "FloatValue": 0,
+              "ImageUrl": "",
+              "InputType": "",
+              "IntValue": 0,
+              "Sink": "pinterest",
+              "StringValue": ""
+            },
+            {
+              "BooleanValue": false,
+              "ExternalEntityId": "",
+              "FloatValue": 0,
+              "ImageUrl": "",
+              "InputType": "",
+              "IntValue": 0,
+              "Sink": "linkedin",
+              "StringValue": ""
+            },
+            {
+              "BooleanValue": false,
+              "ExternalEntityId": "",
+              "FloatValue": 0,
+              "ImageUrl": "",
+              "InputType": "",
+              "IntValue": 0,
+              "SelectedField": [
+                "twitterHandle"
+              ],
+              "Sink": "twitterHandle",
+              "StringValue": ""
+            },
+            {
+              "BooleanValue": false,
+              "ExternalEntityId": "",
+              "FloatValue": 0,
+              "ImageUrl": "",
+              "InputType": "",
+              "IntValue": 0,
+              "SelectedField": [
+                "instagramHandle"
+              ],
+              "Sink": "instagramHandle",
+              "StringValue": ""
+            }
+          ],
+          "DefaultScss": "$background-color: #e9ecef;\n$link-color: #212529;\n$mobile-breakpoint: 768px;\n\nbackground-color: $background-color;\npadding: 2rem 0;\n\n.footer-links {\n    display: flex;\n    justify-content: start;\n    padding-left: 0rem;\n\n    .footer-link {\n        padding: 0rem .5rem;\n        text-decoration: underline;\n        color: $link-color;\n\n        \u0026:first-child {\n            padding-left: 0px;\n        }\n\n        \u0026:hover {\n            text-decoration: none;\n        }\n    }\n}\n\n.col:empty {\n    display: none;\n}\n\n.caption-text {\n    padding-top: 1rem;\n    justify-content: start;\n}\n\n@media (max-width: $mobile-breakpoint) {\n    text-align: center;\n\n    .caption-text {\n        justify-content: center;\n    }\n\n    .footer-links {\n        flex-direction: column;\n        align-items: center;\n\n        .footer-link {\n            padding: 0.5rem 0rem;\n        }\n    }\n}\n\n.social-icon {\n    align-items: center;\n    display: flex;\n    justify-content: center;\n    height: 45px;\n    width: 45px;\n\n    .icon-img {\n        filter: invert(1); // make it black\n    }\n}",
+          "Js": "",
+          "ListParamEntries": [],
+          "ModuleId": "uum2PP2nRI",
+          "Scss": "$background-color: #e9ecef;\n$link-color: #212529;\n$mobile-breakpoint: 768px;\n\nbackground-color: $background-color;\npadding: 2rem 0;\n\n.footer-links {\n    display: flex;\n    justify-content: start;\n    padding-left: 0rem;\n\n    .footer-link {\n        padding: 0rem .5rem;\n        text-decoration: underline;\n        color: $link-color;\n\n        \u0026:first-child {\n            padding-left: 0px;\n        }\n\n        \u0026:hover {\n            text-decoration: none;\n        }\n    }\n}\n\n.col:empty {\n    display: none;\n}\n\n.caption-text {\n    padding-top: 1rem;\n    justify-content: start;\n}\n\n@media (max-width: $mobile-breakpoint) {\n    text-align: center;\n\n    .caption-text {\n        justify-content: center;\n    }\n\n    .footer-links {\n        flex-direction: column;\n        align-items: center;\n\n        .footer-link {\n            padding: 0.5rem 0rem;\n        }\n    }\n}\n\n.social-icon {\n    align-items: center;\n    display: flex;\n    justify-content: center;\n    height: 45px;\n    width: 45px;\n\n    .icon-img {\n        filter: invert(1); // make it black\n    }\n}"
+        }
+      ],
+      "ThemeMapping": {
+        "ContentMapEntries": [
+          {
+            "BooleanValue": false,
+            "ExternalEntityId": "",
+            "FloatValue": 0,
+            "ImageUrl": "",
+            "InputType": "",
+            "IntValue": 0,
+            "SelectedField": [
+              "name"
+            ],
+            "Sink": "pageTitle",
+            "StringValue": ""
+          },
+          {
+            "BooleanValue": false,
+            "ExternalEntityId": "",
+            "FloatValue": 0,
+            "ImageUrl": "",
+            "InputType": "",
+            "IntValue": 0,
+            "SelectedField": [
+              "description"
+            ],
+            "Sink": "metaDescription",
+            "StringValue": ""
+          },
+          {
+            "BooleanValue": false,
+            "ExternalEntityId": "",
+            "FloatValue": 0,
+            "ImageUrl": "",
+            "InputType": "",
+            "IntValue": 0,
+            "Sink": "metaKeywords",
+            "StringValue": ""
+          },
+          {
+            "BooleanValue": false,
+            "ExternalEntityId": "",
+            "FloatValue": 0,
+            "ImageUrl": "",
+            "InputType": "",
+            "IntValue": 0,
+            "Sink": "conversionTracking",
+            "StringValue": ""
+          }
+        ],
+        "DefaultScss": "$web-font-path: \"https://fonts.googleapis.com/css?family\u003dSource+Sans+Pro:300,400,700\" !default;\r\n@import url($web-font-path);\r\n\r\n\r\n$white:    #fff !default;\r\n$gray-100: #f8f9fa !default;\r\n$gray-200: #e9ecef !default;\r\n$gray-300: #dee2e6 !default;\r\n$gray-400: #ced4da !default;\r\n$gray-500: #adb5bd !default;\r\n$gray-600: #868e96 !default;\r\n$gray-700: #495057 !default;\r\n$gray-800: #373a3c !default;\r\n$gray-900: #212529 !default;\r\n$black:    #000 !default;\r\n\r\n$blue:    #2780E3 !default;\r\n$indigo:  #6610f2 !default;\r\n$purple:  #613d7c !default;\r\n$pink:    #e83e8c !default;\r\n$red:     #FF0039 !default;\r\n$orange:  #f0ad4e !default;\r\n$yellow:  #FF7518 !default;\r\n$green:   #3FB618 !default;\r\n$teal:    #20c997 !default;\r\n$cyan:    #9954BB !default;\r\n\r\n$primary:       $blue !default;\r\n$secondary:     $gray-800 !default;\r\n$success:       $green !default;\r\n$info:          $cyan !default;\r\n$warning:       $yellow !default;\r\n$danger:        $red !default;\r\n$light:         $gray-100 !default;\r\n$dark:          $gray-800 !default;\r\n\r\n// Options\r\n\r\n$enable-rounded: false !default;\r\n\r\n// Body\r\n\r\n$body-color:    $gray-800 !default;\r\n\r\n// Fonts\r\n\r\n$font-family-sans-serif: \"Segoe UI\", \"Source Sans Pro\", Calibri, Candara, Arial, sans-serif !default;\r\n\r\n$font-size-base: 0.9375rem !default;\r\n\r\n$headings-font-weight:   300 !default;\r\n\r\n// Navbar\r\n\r\n$navbar-dark-hover-color:           rgba($white,1) !default;\r\n\r\n$navbar-light-hover-color:          rgba($black,.9) !default;\r\n\r\n// Alerts\r\n\r\n$alert-border-width:                0 !default;\r\n\r\n// Progress bars\r\n\r\n$progress-height:               0.5rem !default;\r\n\r\n@import \"bootstrap\";\r\n\r\n\r\nbody {\r\n  -webkit-font-smoothing: antialiased;\r\n}\r\n\r\n",
+        "Js": "",
+        "Scss": "$web-font-path: \"https://fonts.googleapis.com/css?family\u003dSource+Sans+Pro:300,400,700\" !default;\r\n@import url($web-font-path);\r\n\r\n\r\n$white:    #fff !default;\r\n$gray-100: #f8f9fa !default;\r\n$gray-200: #e9ecef !default;\r\n$gray-300: #dee2e6 !default;\r\n$gray-400: #ced4da !default;\r\n$gray-500: #adb5bd !default;\r\n$gray-600: #868e96 !default;\r\n$gray-700: #495057 !default;\r\n$gray-800: #373a3c !default;\r\n$gray-900: #212529 !default;\r\n$black:    #000 !default;\r\n\r\n$blue:    #2780E3 !default;\r\n$indigo:  #6610f2 !default;\r\n$purple:  #613d7c !default;\r\n$pink:    #e83e8c !default;\r\n$red:     #FF0039 !default;\r\n$orange:  #f0ad4e !default;\r\n$yellow:  #FF7518 !default;\r\n$green:   #3FB618 !default;\r\n$teal:    #20c997 !default;\r\n$cyan:    #9954BB !default;\r\n\r\n$primary:       $blue !default;\r\n$secondary:     $gray-800 !default;\r\n$success:       $green !default;\r\n$info:          $cyan !default;\r\n$warning:       $yellow !default;\r\n$danger:        $red !default;\r\n$light:         $gray-100 !default;\r\n$dark:          $gray-800 !default;\r\n\r\n// Options\r\n\r\n$enable-rounded: false !default;\r\n\r\n// Body\r\n\r\n$body-color:    $gray-800 !default;\r\n\r\n// Fonts\r\n\r\n$font-family-sans-serif: \"Segoe UI\", \"Source Sans Pro\", Calibri, Candara, Arial, sans-serif !default;\r\n\r\n$font-size-base: 0.9375rem !default;\r\n\r\n$headings-font-weight:   300 !default;\r\n\r\n// Navbar\r\n\r\n$navbar-dark-hover-color:           rgba($white,1) !default;\r\n\r\n$navbar-light-hover-color:          rgba($black,.9) !default;\r\n\r\n// Alerts\r\n\r\n$alert-border-width:                0 !default;\r\n\r\n// Progress bars\r\n\r\n$progress-height:               0.5rem !default;\r\n\r\n@import \"bootstrap\";\r\n\r\n\r\nbody {\r\n  -webkit-font-smoothing: antialiased;\r\n}\r\n\r\n"
+      }
+    },
+    "DesignParameterConfig": {
+      "BodyFont": {
+        "Alignment": "",
+        "Color": "",
+        "FontFamily": "",
+        "FontWeight": 0,
+        "LineHeight": 0,
+        "TextScale": "",
+        "TextTransform": "",
+        "Uppercase": false
+      },
+      "Buttons": {
+        "Font": {
+          "Alignment": "",
+          "Color": "",
+          "FontFamily": "",
+          "FontWeight": 0,
+          "LineHeight": 0,
+          "TextScale": "",
+          "TextTransform": "",
+          "Uppercase": false
+        },
+        "LetterSpacing": "",
+        "Padding": "",
+        "Radius": 0,
+        "Rounded": false,
+        "Uppercase": false
+      },
+      "Colors": {
+        "Background": "",
+        "Primary": "",
+        "Secondary": ""
+      },
+      "HeaderFont": {
+        "Alignment": "",
+        "Color": "",
+        "FontFamily": "",
+        "FontWeight": 0,
+        "LineHeight": 0,
+        "TextScale": "",
+        "TextTransform": "",
+        "Uppercase": false
+      },
+      "Other": {
+        "MaxWidth": 0,
+        "SectionSpacing": "",
+        "Spacer": 0
+      }
+    },
+    "FooterHtml": "",
+    "HeaderHtml": "",
+    "ModuleInstances": [
+      {
+        "DisplayNameOverride": "",
+        "Id": "J9m-Pgkf_I",
+        "Module": "nav_bar",
+        "Version": 40
+      },
+      {
+        "DisplayNameOverride": "",
+        "Id": "JJQAggAo_E",
+        "Module": "announcement_bar_2",
+        "Version": 17
+      },
+      {
+        "DisplayNameOverride": "",
+        "Id": "JHgkgmAo_I",
+        "Module": "centered_hero",
+        "Version": 43
+      },
+      {
+        "DisplayNameOverride": "",
+        "Id": "JumkgQ-XUE",
+        "Module": "about_this_page",
+        "Version": 52
+      },
+      {
+        "DisplayNameOverride": "",
+        "Id": "uum2PP2nRI",
+        "Module": "footer",
+        "Version": 49
+      }
+    ],
+    "Path": "",
+    "Schema": "",
+    "SinglePageConfig": {
+      "Path": ""
+    },
+    "Theme": "cosmo",
+    "ThemeVersion": 2
+  },
+  "PageSetType": "TEMPLATE"
+}

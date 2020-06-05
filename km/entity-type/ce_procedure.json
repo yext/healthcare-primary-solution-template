@@ -1,0 +1,58 @@
+{
+  "$id": "ce_procedure",
+  "$schema": "https://schema.yext.com/config/km/entity-type/v1",
+  "description": "",
+  "displayName": "Procedure",
+  "enabled": true,
+  "field": [
+    {
+      "id": "yext/description",
+      "required": false
+    },
+    {
+      "id": "yext/name",
+      "required": true
+    },
+    {
+      "id": "yext/certifications",
+      "required": false
+    },
+    {
+      "id": "c_activeOnAnswers",
+      "required": false
+    },
+    {
+      "id": "c_activeOnPages",
+      "required": false
+    },
+    {
+      "id": "c_relatedLocations",
+      "required": false
+    },
+    {
+      "id": "c_relatedSpecialties",
+      "required": false
+    },
+    {
+      "id": "yext/educationList",
+      "required": false
+    },
+    {
+      "id": "yext/folder",
+      "required": false
+    },
+    {
+      "id": "yext/labels",
+      "required": false
+    },
+    {
+      "id": "yext/entityId",
+      "required": true
+    },
+    {
+      "id": "yext/websiteUrl",
+      "required": false
+    }
+  ],
+  "pluralDisplayName": "Procedures"
+}

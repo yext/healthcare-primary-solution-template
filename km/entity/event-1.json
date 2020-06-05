@@ -1,0 +1,23 @@
+{
+  "$id": "event-1",
+  "$schema": "https://schema.yext.com/config/km/entity/v1",
+  "content": {
+    "yext/address": {
+      "city": "Houston",
+      "countryCode": "US",
+      "line1": "123 Main Street",
+      "postalCode": "77570",
+      "region": "TX"
+    },
+    "yext/linkedLocation": "healthcare-facility-1",
+    "yext/name": "Event aaaaabbbbbb",
+    "yext/time": {
+      "end": "2023-12-01T09:30",
+      "start": "2023-12-01T08:30"
+    },
+    "yext/timezone": "America/Chicago",
+    "yext/venueName": "Healthcare Facility"
+  },
+  "entityType": "yext/event",
+  "labels": []
+}

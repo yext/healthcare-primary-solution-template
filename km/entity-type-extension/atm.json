@@ -1,0 +1,20 @@
+{
+  "$id": "atm",
+  "$schema": "https://schema.yext.com/config/km/entity-type-extension/v1",
+  "enabled": false,
+  "entityType": "yext/atm",
+  "field": [
+    {
+      "id": "c_activeOnAnswers",
+      "required": true
+    },
+    {
+      "id": "c_activeOnPages",
+      "required": false
+    },
+    {
+      "id": "c_ctas",
+      "required": false
+    }
+  ]
+}

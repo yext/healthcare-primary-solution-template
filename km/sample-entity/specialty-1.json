@@ -1,8 +1,0 @@
-{
-  "$id": "specialty-1",
-  "$type": "https://schema.yext.cloud/config/km/sample-entity",
-  "content": {
-    "yext.name": "Specialty"
-  },
-  "entityType": "ce_specialty"
-}
